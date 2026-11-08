@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Financial data
+*.csv
+!tests/fixtures/*.csv
+!tests/fixtures/**/*.csv
+finance-data/
+data/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
